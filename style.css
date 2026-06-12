@@ -1,7 +1,23 @@
+button {
+    border-color: black;
+    height: 100px;
+    width: 100px;
+    margin: 2px 0;
+}
+
 div {
-    outline: 2px solid black;
-    padding: 20px;
-    margin-right: 800px;
-    text-align: center;
+    background-color: silver;
+    width: 300px;
+    height: 600px;
+    border: solid 5px black;
+    padding: 50px;
+    margin: auto;
     
-} 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+}
+
